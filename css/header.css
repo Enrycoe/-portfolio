@@ -1,0 +1,35 @@
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.header-menu a {
+  font-size: 1.125rem;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: #A9A9A9;
+}
+
+@media (max-width: 850px) {
+  .header {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+  .header a{
+    background-color: #363636;
+    border-radius: 4px;
+  }
+}

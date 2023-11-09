@@ -1,0 +1,35 @@
+html{
+  background-color: #1C1C1C;
+}
+
+body {
+  font-family: "Fira Sans", Arial, sans-serif;
+  margin: 0px;
+  color: #A9A9A9;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.subtitulo{
+  font-size: 8rem;
+  line-height: 1;
+  word-break: break-all;
+  text-transform: uppercase;
+  max-width: 4ch;
+}
