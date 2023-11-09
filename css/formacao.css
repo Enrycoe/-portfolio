@@ -134,7 +134,7 @@
   font-weight: 700;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .certificados-lista {
     display: flex;
     flex-wrap: wrap;

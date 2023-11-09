@@ -7,7 +7,6 @@
   align-items: center;
 }
 
-
 .header-menu {
   display: flex;
   flex-wrap: wrap;
@@ -19,7 +18,7 @@
   font-size: 1.125rem;
   padding: 10px 25px;
   text-decoration: none;
-  color: #A9A9A9;
+  color: #a9a9a9;
 }
 
 @media (max-width: 850px) {
@@ -28,8 +27,24 @@
     gap: 40px;
     padding: 20px;
   }
-  .header a{
+  .header a {
     background-color: #363636;
     border-radius: 4px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    flex-direction: column;
+    gap: 0px;
+    padding: 0px;
+  }
+
+  .header-menu {
+    margin-top: 20px;
+  }
+  .header a {
+    background-color: initial;
+    border-radius: initial;
   }
 }
